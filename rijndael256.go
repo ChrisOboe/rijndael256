@@ -12,7 +12,7 @@ import (
 
 const rounds = 14
 const keyWords = 8
-const BlockSize = 32
+const BlockSize = 16
 const blockWords = BlockSize/4
 
 type Cipher struct {

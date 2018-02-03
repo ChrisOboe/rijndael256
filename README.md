@@ -1,10 +1,6 @@
 # rijndael256
 
-This project it's a adapted version: https://github.com/agl/pond/blob/master/panda/rijndael/rijndael.go
+This project it's a adapted version: https://github.com/celso-wo/rijndael256
+Which itself it's a adapted version: https://github.com/agl/pond/blob/master/panda/rijndael/rijndael.go
 
-The original file was changed to implement the Go standard Chipher Block interface: https://golang.org/pkg/crypto/cipher/#Block
-
-You can use Rijndael256 for 256 bits key size.
-
-Feel free to make improvements!
-:D
+The only thing i changed was the blocksize. Since i needed a blocksize of 16 byte instead of 32.
